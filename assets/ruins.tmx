@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="left-down" width="60" height="40" tilewidth="16" tileheight="16" nextobjectid="49">
+ <tileset firstgid="1" name="ruins" tilewidth="16" tileheight="16">
+  <image source="ruins.png" width="304" height="96"/>
+ </tileset>
+ <tileset firstgid="115" name="spike" tilewidth="16" tileheight="16">
+  <image source="spike.png" width="16" height="16"/>
+ </tileset>
+ <layer name="Background Layer 2" width="60" height="40">
+  <data encoding="base64" compression="zlib">
+   eJzt1EEKgDAMBdFcwmDvf1EV/BBicCkmzIOClC4MUzUDAAAAAAAAAAAA8LWtWFPlOXebO3PVdWrn2FNN/VzLnq27y/d3heX3ntuMznp/dcxNr2d1jd9yt5mr/5LmUVu1jufUvNvcuWueqdrPZzrN+0b3ultD/NsBv0gI1w==
+  </data>
+ </layer>
+ <layer name="Background Layer 1" width="60" height="40">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T20Hb6AAAAAAAAAAAAB4DCWAAAE=
+  </data>
+ </layer>
+ <layer name="Playable Layer" width="60" height="40">
+  <data encoding="base64" compression="zlib">
+   eJztk0EOgjAUBbmOC04gC0VRV3IOxPuvfQtMSIOJ9pfS1plkFpTQ/hf6qgoAAADWZJAPOcrnxrMAwDL0FHx43xvX8YPcrbjQa4D0oacA5UGvAdahlgd5lO307EvqPa0nT/Isu9laacxzXeRV3hbelcA3eUrJ/EuOUJm36rXP/Ln+Z8vcuWUOMW9Omf8tb4rsDFr2CjGLz/eNwb2jZa9Y5/cG746WvWKd/wJlpEF5
+  </data>
+ </layer>
+ <objectgroup name="Objects">
+  <object id="1" name="player" type="player" x="32" y="544" width="34" height="34"/>
+  <object id="2" name="coin" type="coin" x="160" y="560" width="16" height="16"/>
+  <object id="3" name="coin" type="coin" x="192" y="560" width="16" height="16"/>
+  <object id="4" name="coin" type="coin" x="128" y="560" width="16" height="16"/>
+  <object id="5" name="coin" type="coin" x="464" y="560" width="16" height="16"/>
+  <object id="6" name="coin" type="coin" x="496" y="544" width="16" height="16"/>
+  <object id="7" name="coin" type="coin" x="528" y="544" width="16" height="16"/>
+  <object id="8" name="coin" type="coin" x="560" y="560" width="16" height="16"/>
+  <object id="9" name="coin" type="coin" x="496" y="400" width="16" height="16"/>
+  <object id="10" name="coin" type="coin" x="528" y="400" width="16" height="16"/>
+  <object id="11" name="coin" type="coin" x="832" y="560" width="16" height="16"/>
+  <object id="12" name="coin" type="coin" x="864" y="560" width="16" height="16"/>
+  <object id="13" name="coin" type="coin" x="896" y="560" width="16" height="16"/>
+  <object id="14" name="coin" type="coin" x="192" y="192" width="16" height="16"/>
+  <object id="15" name="coin" type="coin" x="224" y="192" width="16" height="16"/>
+  <object id="16" name="coin" type="coin" x="256" y="192" width="16" height="16"/>
+  <object id="17" name="coin" type="coin" x="288" y="192" width="16" height="16"/>
+  <object id="18" name="coin" type="coin" x="320" y="192" width="16" height="16"/>
+  <object id="19" name="coin" type="coin" x="352" y="192" width="16" height="16"/>
+  <object id="20" name="coin" type="coin" x="800" y="400" width="16" height="16"/>
+  <object id="21" name="coin" type="coin" x="800" y="272" width="16" height="16"/>
+  <object id="22" name="coin" type="coin" x="896" y="336" width="16" height="16"/>
+  <object id="23" name="coin" type="coin" x="896" y="464" width="16" height="16"/>
+  <object id="24" name="coin" type="coin" x="896" y="208" width="16" height="16"/>
+  <object id="25" name="coin" type="coin" x="800" y="144" width="16" height="16"/>
+  <object id="26" name="coin" type="coin" x="896" y="80" width="16" height="16"/>
+  <object id="42" name="spike" type="spike" x="480" y="592" width="16" height="16"/>
+  <object id="43" name="spike" type="spike" x="496" y="592" width="16" height="16"/>
+  <object id="44" name="spike" type="spike" x="512" y="592" width="16" height="16"/>
+  <object id="45" name="spike" type="spike" x="528" y="592" width="16" height="16"/>
+  <object id="46" name="spike" type="spike" x="544" y="592" width="16" height="16"/>
+  <object id="47" name="coin" type="coin" x="928" y="560" width="16" height="16"/>
+  <object id="48" name="coin" type="coin" x="224" y="560" width="16" height="16"/>
+ </objectgroup>
+ <layer name="Foreground Layer" width="60" height="40">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T20Hb6AAAAAAAAAAAAB4DCWAAAE=
+  </data>
+ </layer>
+</map>
